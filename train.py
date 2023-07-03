@@ -14,10 +14,8 @@ import os
 from random import randint
 import uuid
 from tqdm import tqdm
-import yaml
+import toml
 import argparse
-
-import torch
 
 from utils.samplers import get_data_sampler
 from utils.tasks import get_task_sampler
